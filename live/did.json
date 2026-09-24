@@ -1,1 +1,23 @@
-{}
+{
+  "assertionMethod": [
+    "did:web:minoli-alles7.github.io:DID:live"
+  ],
+  "service": [],
+  "id": "did:web:minoli-alles7.github.io:DID:live",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6MkoHw9EtRYcmpW8VdffK7jDk9X4MrKUkstAsn2tNsLP7RW",
+      "controller": "did:web:minoli-alles7.github.io:DID:live",
+      "id": "did:web:minoli-alles7.github.io:DID:live#xVFbJmrFCZqc5l2PQ1sdIVJ9tOW6MMeICrWB4YoicFc",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:minoli-alles7.github.io:DID:live"
+  ]
+}
