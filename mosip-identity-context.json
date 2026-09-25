@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "MOSIPVerifiableCredential": {
+      "@id": "https://schema.org/VerifiableCredential",
+      "@context": {
+        "IDSchemaVersion": "https://schema.org/version",
+        "UIN": "https://schema.org/identifier",
+        "referenceIdentityNumber": "https://schema.org/identifier",
+        "name": {
+          "@id": "https://schema.org/givenName",
+          "@container": "@set"
+        },
+        "surname": {
+          "@id": "https://schema.org/familyName",
+          "@container": "@set"
+        },
+        "familyName": {
+          "@id": "https://schema.org/additionalName",
+          "@container": "@set"
+        },
+        "gender": {
+          "@id": "https://schema.org/gender",
+          "@container": "@set"
+        },
+        "dateOfBirth": "https://schema.org/birthDate",
+        "placeOfBirth": {
+          "@id": "https://schema.org/birthPlace",
+          "@container": "@set"
+        },
+        "divisionalSecretariatOfBirth": {
+          "@id": "https://schema.org/addressLocality",
+          "@container": "@set"
+        },
+        "deathDeclared": "https://schema.org/Boolean",
+        "dateOfDeath": "https://schema.org/deathDate",
+        "addressLine1": {
+          "@id": "https://schema.org/streetAddress",
+          "@container": "@set"
+        },
+        "addressLine2": {
+          "@id": "https://schema.org/streetAddress",
+          "@container": "@set"
+        },
+        "addressLine3": {
+          "@id": "https://schema.org/streetAddress",
+          "@container": "@set"
+        },
+        "province": {
+          "@id": "https://schema.org/addressRegion",
+          "@container": "@set"
+        },
+        "district": {
+          "@id": "https://schema.org/addressLocality",
+          "@container": "@set"
+        },
+        "divisionalSecretariat": {
+          "@id": "https://schema.org/addressLocality",
+          "@container": "@set"
+        },
+        "grammaNiladhari": {
+          "@id": "https://schema.org/addressLocality",
+          "@container": "@set"
+        },
+        "postalCode": "https://schema.org/postalCode",
+        "currentAddressLine1": {
+          "@id": "https://schema.org/streetAddress",
+          "@container": "@set"
+        },
+        "currentAddressLine2": {
+          "@id": "https://schema.org/streetAddress",
+          "@container": "@set"
+        },
+        "currentAddressLine3": {
+          "@id": "https://schema.org/streetAddress",
+          "@container": "@set"
+        },
+        "currentProvince": {
+          "@id": "https://schema.org/addressRegion",
+          "@container": "@set"
+        },
+        "currentDistrict": {
+          "@id": "https://schema.org/addressLocality",
+          "@container": "@set"
+        },
+        "currentDivisionalSecretariat": {
+          "@id": "https://schema.org/addressLocality",
+          "@container": "@set"
+        },
+        "currentGramaNiladhari": {
+          "@id": "https://schema.org/addressLocality",
+          "@container": "@set"
+        },
+        "currentPostalCode": "https://schema.org/postalCode",
+        "phone": "https://schema.org/telephone",
+        "email": "https://schema.org/email",
+        "preferredLang": "https://schema.org/knowsLanguage",
+        "face": "https://schema.org/image",
+        "compressedFace": "https://schema.org/image",
+        "applicantSignature": "https://schema.org/image",
+        "individualBiometrics": "https://schema.org/image",
+        "individualAuthBiometrics": "https://schema.org/image",
+        "claim169": {
+          "@id": "https://schema.org/Property",
+          "@context": {
+            "identityQRCode": "https://schema.org/Text"
+          }
+        },
+        "value": "https://schema.org/value",
+        "language": "https://schema.org/inLanguage"
+      }
+    }
+  }
+}
