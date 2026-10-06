@@ -6,9 +6,9 @@
   "id": "did:web:minoli-alles7.github.io:DID:dev1",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkmRH5oiiYhnvNgidvAbBjuJzkjDQTNBpjoj54eoWyasfg",
+      "publicKeyMultibase": "z6MknYaAe2rB4qGcpwvxmMRX4B2HhBA839gzky1LjzNfUihb",
       "controller": "did:web:minoli-alles7.github.io:DID:dev1",
-      "id": "did:web:minoli-alles7.github.io:DID:dev1#4j9A4c2bCXr31KGf6nHpaxERogMaQd2sXC3WAhoG4sM",
+      "id": "did:web:minoli-alles7.github.io:DID:dev1#Yze2nQZqDIr4Yc5Eadhrprk-BQRKQFZIPV2mqC2n_P8",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
