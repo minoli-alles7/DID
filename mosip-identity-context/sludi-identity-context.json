@@ -30,7 +30,7 @@
     },
 
     "surname": {
-      "@id": "schema:surname",
+      "@id": "schema:name",
       "@container": "@set",
       "@context": {
         "language": "@language",
