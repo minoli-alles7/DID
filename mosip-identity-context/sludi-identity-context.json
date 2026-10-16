@@ -8,10 +8,6 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "sludi": "https://minoli-alles7.github.io/DID/mosip-identity-context/sludi-identity-context.json#",
 
-    "MOSIPVerifiableCredential": {
-      "@id": "sludi:MOSIPVerifiableCredential"
-    },
-
     "UIN": "schema:identifier",
 
     "referenceIdentityNumber": {
