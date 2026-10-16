@@ -1,0 +1,148 @@
+
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sludi": "https://minoli-alles7.github.io/DID/mosip-identity-context/sludi-identity-context.json#",
+
+    "MOSIPVerifiableCredential": {
+      "@id": "sludi:MOSIPVerifiableCredential"
+    },
+
+    "UIN": "schema:identifier",
+
+    "referenceIdentityNumber": {
+      "@id": "sludi:referenceIdentityNumber",
+      "@type": "xsd:string"
+    },
+
+    "name": {
+      "@id": "schema:name",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "surname": {
+      "@id": "schema:surname",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "familyName": {
+      "@id": "sludi:familyName",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "gender": {
+      "@id": "schema:gender",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "dateOfBirth": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+
+    "placeOfBirth": {
+      "@id": "schema:birthPlace",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "addressLine1": {
+      "@id": "sludi:addressLine1",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "addressLine2": {
+      "@id": "sludi:addressLine2",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "addressLine3": {
+      "@id": "sludi:addressLine3",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "grammaNiladhari": {
+      "@id": "sludi:grammaNiladhari",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "divisionalSecretariat": {
+      "@id": "sludi:divisionalSecretariat",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "district": {
+      "@id": "sludi:district",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "province": {
+      "@id": "schema:addressRegion",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "postalCode": "schema:postalCode",
+
+    "phone": "schema:telephone",
+
+    "email": "schema:email",
+
+    "applicantSignature": {
+      "@id": "sludi:applicantSignature",
+      "@type": "xsd:string"
+    },
+
+    "face": "schema:image"
+  }
+}
