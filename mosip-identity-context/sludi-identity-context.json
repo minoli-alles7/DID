@@ -8,6 +8,11 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "sludi": "https://minoli-alles7.github.io/DID/mosip-identity-context/sludi-identity-context.json#",
 
+    "SLUDIVC": {
+      "@id": "sludi:SLUDIVC"
+    },
+    
+
     "UIN": "schema:identifier",
 
     "referenceIdentityNumber": {
